@@ -1,0 +1,15 @@
+Basis:
+
+Java JDK installieren (z.Bsp. JDK 21): https://www.oracle.com/java/technologies/downloads/#java21
+
+Maven Build Tool: https://maven.apache.org/download.cgi
+Download, Entpacken und Pfad auf das …/bin Verzeichnis setzen
+Kommando, um das Jar zu bauen: mvn clean validate compile package 
+
+JAR im …/target Verzeichnis
+Ausführen: java -jar "C:\dev\projects\restapi\target\restapi-0.0.1-SNAPSHOT.jar"
+
+swagger http://localhost:8080/swagger
+
+spring initializer: https://start.spring.io/
+
